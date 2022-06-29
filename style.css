@@ -28,6 +28,15 @@ button {
     width: 25%;
     height: 50px;
     cursor: pointer;
+    background-color: darkgray;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+button:active {
+    background-color: bisque;
 }
 
 .buttonBack {
@@ -41,4 +50,12 @@ button {
 .specialButton {
     background-color: darkorange;
     color: whitesmoke;
+}
+
+.specialButton:hover {
+    background-color: orange;
+}
+
+.specialButton:active {
+    background-color: crimson;
 }
