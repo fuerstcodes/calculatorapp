@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    width: 25%;
+    font-family: monospace;
+    font-weight: bold;
+    border: solid 1px black;
+    margin-left: auto 0;
+}
+
+.result {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    padding-right: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+
+.flexRow {
+    display: flex;
+}
+
+button {
+    width: 25%;
+}
+
+.back {
+    width: 50%;
+}
+
+.zero {
+    width: 75%;
+}
+
+.specialButton {
+    background-color: darkorange;
+    color: whitesmoke;
+}
